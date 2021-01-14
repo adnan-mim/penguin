@@ -1,0 +1,122 @@
+:root{
+    --bg-primary:#A4BC46;
+    --bg-dark: #262729;
+    --gray-dark: #999999;
+    --light-pink: #FFFBF0;
+    --bg-golden: #FABE4C;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: ease all .3s;
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+
+/* Template Text color */
+
+.text-primary{
+    color: var(--bg-primary) !important;
+}
+
+.text-gold{
+    color: var(--bg-golden) !important;
+}
+
+/* Template Spacing */
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+
+/* Template Background Color */
+.bg-light-pink{
+    background-color: var(--light-pink);
+}
+
+/* Template Custom width */
+.width-100 {
+    width: 70px;
+    height: auto;
+}
+
+/* Tempalte Button style */
+.btn-primary{
+    background-color: var(--bg-primary);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #7a9319;
+}
+
+
+/* Header style  */
+.navbar .nav-link {
+    font-weight: 600;
+    padding: 10px 20px !important;
+}
+
+/* Banner Text */
+.banner-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner-text h1 span{
+    color: var(--bg-golden);
+}
+
+
+/* Product Section */
+.card-title{
+    font-size: 22px;
+    color: #363958;
+    font-weight: 600;
+}
+.price{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FABE4C;
+}
+
+
+/* Footer */
+.footer{
+    border-bottom: 1px solid #343638;
+}
+
+.footer-widget .h4{
+    color: #ddd;
+}
+
+.footer-widget ul a{
+    color: var(--gray-dark);
+    display: block;
+    margin-bottom: .5rem;
+
+}
+
+.footer-widget ul a:hover{
+    color: var(--bg-primary);
+}
+
+.footer, .copyright{
+    background-color: var(--bg-dark);
+    color: var(--gray-dark);
+}
+
+.payment{
+    font-size: 25px;
+}
